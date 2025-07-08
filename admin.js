@@ -10,17 +10,6 @@ const newData = [
   }
 ];
 
-fetch(https://api.jsonbin.io/v3/qs/${BIN_ID}, {
-     method: "PUT",
-     headers = {
-  "Content-Type": "application/json",
-  "X-Master-Key": API_KEY;
-};
-body: JSON.stringify(newData)
-})
-.then(res => res.json())
-.then(data => console.log("Updated!", data))
-.catch(err => console.error("Error:", err));
 
 async function getUsers() {
   const res = await fetch(https://api.jsonbin.io/v3/qs/${BIN_ID}, {
