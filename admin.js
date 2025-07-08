@@ -10,7 +10,7 @@ const newData = [
   }
 ];
 
-fetch(`https://api.jsonbin.io/v3/b/${BIN_ID}`, {
+fetch(https://api.jsonbin.io/v3/qs/${BIN_ID}, {
      method: "PUT",
      headers = {
   "Content-Type": "application/json",
